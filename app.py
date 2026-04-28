@@ -195,11 +195,6 @@ client = OpenAI(
     api_key=st.secrets["YOUR_API_KEY"] 
 )
 
-client = OpenAI(
-    base_url="https://api.groq.com/openai/v1",
-    api_key="YOUR_API_KEY"   # 🔐 secure
-)
-
 def chatbot_response(question, result):
 
     model_type = result.get("type", "linear")
