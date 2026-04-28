@@ -1,0 +1,7 @@
+streamlit
+pandas
+statsmodels
+plotly
+scikit-learn
+openai
+groq
