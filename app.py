@@ -195,43 +195,46 @@ client = OpenAI(
     api_key="YOUR_API_KEY"   # 🔐 secure
 )
 
+client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",
+    api_key="YOUR_API_KEY"   # 🔐 secure
+)
+
 def chatbot_response(question, result):
 
     model_type = result.get("type", "linear")
 
     if model_type == "logistic":
         performance = f"""
-Accuracy: {result.get("accuracy")}
-Precision: {result.get("precision")}
-Recall: {result.get("recall")}
-F1 Score: {result.get("f1")}
-"""
+        Accuracy: {result.get("accuracy")}
+        Precision: {result.get("precision")}
+        Recall: {result.get("recall")}
+        F1 Score: {result.get("f1")}
+        """
     else:
         performance = f"""
-R2 Score: {result.get("r2")}
-Adjusted R2: {result.get("adj_r2")}
-"""
+        R2 Score: {result.get("r2")}
+        Adjusted R2: {result.get("adj_r2")}
+        """
+        prompt = f"""
+        You are a professional data science assistant.
 
-    prompt = f"""
-You are a professional data science assistant.
+        Model Type: {model_type}
 
-Model Type: {model_type}
+        Model Performance:
+        {performance}
 
-Model Performance:
-{performance}
+        Coefficients:
+        {result.get("coef")}
 
-Coefficients:
-{result.get("coef")}
+        User Question:
+        {question}
 
-User Question:
-{question}
-
-Give:
-- Simple explanation
-- Key insights
-- Suggestions to improve model
-"""
-
+        Give:
+        - Simple explanation
+        - Key insights
+        - Suggestions to improve model
+        """
     try:
         response = client.chat.completions.create(
             model="llama-3.1-8b-instant",
