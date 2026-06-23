@@ -145,8 +145,3 @@ Feel free to fork the repository and submit pull requests.
 
 ---
 
----
-
-## 💡 Tagline
-
-> Turning Data into Decisions with AI 🚀
