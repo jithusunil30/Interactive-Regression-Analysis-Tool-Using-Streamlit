@@ -1,6 +1,6 @@
-# 🚀 RegStatsAI — AI-Powered Regression & Statistical Analysis Platform
+#  RegStatsAI — AI-Powered Regression & Statistical Analysis Platform
 
-## 📌 Overview
+##  Overview
 
 **RegStatsAI** is an advanced data analytics and machine learning platform designed to perform **regression analysis, statistical testing, and intelligent predictions** on real-world datasets.
 
@@ -8,9 +8,9 @@ Built using **Streamlit + Python**, this application transforms raw data into me
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
-### 🤖 AI-Powered Model Selection
+###  AI-Powered Model Selection
 
 * Automatically selects the best model:
 
@@ -18,42 +18,42 @@ Built using **Streamlit + Python**, this application transforms raw data into me
   * Logistic Regression
 * Eliminates manual guesswork
 
-### 📊 Advanced Regression Analysis
+###  Advanced Regression Analysis
 
 * Regression Equation Generation
 * R² & Adjusted R² Metrics
 * Coefficient Analysis
 
-### 🧠 Smart Insights Engine
+###  Smart Insights Engine
 
 * Identifies significant variables (p-value based)
 * Highlights important predictors
 * Provides human-readable interpretations
 
-### 📈 Interactive Visualizations
+###  Interactive Visualizations
 
 * Scatter plots with trendlines
 * Correlation matrix
 * Dynamic charts using Plotly
 
-### 📂 Dataset Handling
+###  Dataset Handling
 
 * Upload CSV datasets بسهولة
 * Automatic data cleaning (handles missing values)
 
-### 📉 Logistic Regression Metrics
+### Logistic Regression Metrics
 
 * Accuracy, Precision, Recall, F1 Score
 * ROC-AUC Score
 * Confusion Matrix
 
-### 📥 Export Results
+###  Export Results
 
 * Download model results as report file
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** Streamlit
 * **Backend:** Python
@@ -67,7 +67,7 @@ Built using **Streamlit + Python**, this application transforms raw data into me
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 regression-analysis-app/
@@ -79,7 +79,7 @@ regression-analysis-app/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone Repository
 
@@ -102,7 +102,7 @@ python -m streamlit run app.py
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 1. Upload a CSV dataset
 2. Select target and feature variables
@@ -112,42 +112,38 @@ python -m streamlit run app.py
 
 ---
 
-## 📊 Example Use Cases
+##  Example Use Cases
 
-* 📈 Financial risk prediction
-* 🏦 Credit scoring analysis
-* 📉 Business forecasting
-* 🎓 Academic statistical research
-* 📊 Data science learning projects
-
----
-
-## 🔮 Future Enhancements
-
-* 🌐 Live deployment (Streamlit Cloud)
-* 🤖 AI Chat Assistant for model explanation
-* 📊 Advanced dashboard with multiple tabs
-* 📄 PDF report generation
-* 🔐 User authentication system
+*  Financial risk prediction
+*  Credit scoring analysis
+*  Business forecasting
+*  Academic statistical research
+*  Data science learning projects
 
 ---
 
-## 🤝 Contributing
+## Future Enhancements
+
+* Live deployment (Streamlit Cloud)
+* AI Chat Assistant for model explanation
+* Advanced dashboard with multiple tabs
+* PDF report generation
+* User authentication system
+
+---
+
+## Contributing
 
 Contributions are welcome!
 Feel free to fork the repository and submit pull requests.
 
 ---
 
-## 👨‍💻 Author
+##Author
 
 **Jithu S**
 
 ---
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
 
 ---
 
